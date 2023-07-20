@@ -1,0 +1,16 @@
+# For more information about the available options please visit: http://go/backstage (VPN required)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: Unity-Technologies/brg-shooter
+  name: brg-shooter
+  description: "Unity blog-post sample showing BatchRendererGroup and Burst/JobSystem. Focus is high performance even on budget mobile devices. Unity 2022.3.5 or above required"
+  labels:
+    costcenter: "5035"
+  tags:
+    - planned-public
+spec:
+  type: other
+  lifecycle: production
+  owner: unity-technologies/desktop-graphics
